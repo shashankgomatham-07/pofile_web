@@ -1,0 +1,505 @@
+*{
+  margin: 0px;
+  font-family: 'Times New Roman', Times, serif;
+  border:  border-box;  
+}
+body{
+    background-color: blueviolet;
+}
+.nav{
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    margin-top: 30px;
+    font-size: 1.5rem;
+}
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30px;
+    width: 20%;
+}
+.social a{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+.prop{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30px;
+    width: 50%;
+}
+.prop a{
+    display: block;
+    color: white;
+    text-decoration:none;
+}
+.name{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20%;
+}
+.name a{
+    display: block;
+    color: white;
+    text-decoration:none;
+}
+.navi:hover{
+    text-decoration: underline solid white;  
+
+}
+.intro{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 400px;
+
+}
+.mg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 50%;
+}
+.info p{
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.info{
+    width: 50%;
+}
+.pic{
+    background-image: url(shashank.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 50%;
+    border-top-left-radius:155px;
+    border-top-right-radius: 155px;
+}
+.m_intro{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.l{
+    color: white;
+    font-weight:700 ;
+    font-size: 1.5rem;
+}
+.in{
+    width: 50%;
+}
+.in p{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+footer{
+    margin-top: 30px;
+    height: 250px;
+    background-color: rgb(130, 24, 230);
+}
+.fot{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
+    width: 100%;
+    font-weight: 500;
+}
+.con p{
+    font-size: 1.5rem;
+    color: white;
+    
+}
+.con{
+    display: flex;
+    justify-content: space-evenly;
+}
+.con a{
+    display: block;
+    color: white;
+    margin-top: 10px;
+}
+.com ul{
+    display: block;
+}
+.cop p{
+    color: white;
+}
+.cop i{
+    size: 3px;
+}
+.cop{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: center;
+    border-top: 1px solid white;
+    padding-top: 5px;
+}
+.con a:hover{
+    cursor: pointer;
+}
+/* contact page  */
+.cont{
+    display: flex;
+    align-items: center;
+    /* margin-top: 40px; */
+    justify-content: space-between;
+    justify-content: space-evenly;
+    height: 650px;
+}
+.sug{
+    /* margin-top: 30px; */
+    display: flex;
+    /* margin-left: 30px; */
+    flex-direction: column;
+    height: 500px;
+    width: 40%;
+}
+.me{
+    color: white;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.qe{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.p1{
+    color: white;
+    font-size: 1.5rem;
+}
+.p1 a{
+    color: white;
+}
+.colr{
+    color: red;
+    font-size: 0.9rem;
+}
+/* .cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+} */
+.fo{
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    height: 100%;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+}
+.but{
+    border-radius: 5px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 20%;
+    border: none;
+}
+.but:hover{
+    cursor: pointer;
+    box-shadow:0 0 5px black;
+    background-color: rgb(141, 148, 148);
+    transition: 0.2s;
+}
+.nb{
+    width: 45%;
+    height: 30px;
+}
+.nb1{
+    width: 70%;
+    height: 30px;
+}.nb2{
+    width: 20%;
+    height: 30px;
+}
+.nb3{
+    width: 80%;
+    height: 100px;
+}
+/* projects page */
+.pro{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+.pla p{
+    font-size: 1.5rem;
+    color: rgb(7, 7, 7);
+}
+.pla{
+    height: 350px ;
+    width: 30%;
+    /* display: flex; */
+    justify-content: center;
+    /* align-items: center; */
+    /* border: 5px solid white; */
+    border-radius: 20px;
+    padding: 10px;
+    background-color:transparent;
+}
+.pla_1{
+    height: 90%;
+    border-radius: 20px;
+    width: 100%;
+    background-image: url(g1.png);
+    background-size: cover;
+    background-position: center;
+}.pla_2{
+    height: 90%;
+    border-radius: 20px;
+    width: 100%;
+    background-image: url(g2.png);
+    background-size: cover;
+    background-position: center;
+}
+.pl{
+    width: 100%;
+    height: 20px;
+}
+.pla_3{
+    height: 90%;
+    border-radius: 20px;
+    width: 100%;
+    background-image: url(g3.png);
+    background-size: cover;
+    background-position: center;
+}
+.pla:hover{
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+}
+.ino_1{
+    height: 20px;
+    width: 100%;
+    /* background: orange; */
+    /* margin-top: 10px; */
+    /* border-radius: 10px; */
+    padding: 5px;
+}
+/* education page */
+.main{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    gap: 15px;    
+    align-items: center;
+}
+.cad{
+    height: 340px;
+    background:rgb(170, 100, 236);
+    width: 25%;
+    border-radius: 20px;
+    padding: 15px;
+    border: hidden;
+    /* animation: slide 15s linear infinite; */
+
+}
+.cad a{
+    text-decoration: none;
+    color: black;
+}
+.cad:hover{
+    background: transparent;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+    /* transform: translateY(-20px); */
+}
+/* @keyframes slide {
+    from{
+        transform: translateX(-200%);
+    }
+    to{
+        transform: translateX(200%);
+    }
+} */
+.simg_1{
+    height: 200px;
+    width: 100%;
+    background-image: url(s.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}.simg_2{
+    height: 200px;
+    width: 100%;
+    background-image: url(c.png);
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.simg_3{
+    height: 200px;
+    width: 100%;
+    background-image: url(cl.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.ino{
+    height: 80px;
+    width: 100%;
+    /* background: orange; */
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.rm{
+    height: 30px;
+    width: 25%;
+    background:rgb(84, 204, 164);
+    box-shadow: 0 0 10px blue;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+}
+/* certificates page */
+.cade a{
+    text-decoration: none;
+    color: black;
+}
+.cade{
+    height: 370px;
+    background:rgb(170, 100, 236);
+    width: 25%;
+    border-radius: 20px;
+    padding: 15px;
+    border: hidden;
+    /* animation: slide 15s linear infinite; */
+}
+.cer1{
+    height: 200px;
+    width: 100%;
+    background-image: url(c1.jpeg);
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.cade:hover{
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+    background: rgb(151, 69, 228);
+}
+.cer2{
+    height: 200px;
+    width: 100%;
+    background-image: url(c2.jpeg);
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* resume page */
+.resume{
+    height: 700px;
+    padding: 30px;
+    width: 60%;
+    background: rgb(166, 185, 201);
+    border-radius: 20px;
+}
+.main1{
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    /* gap: 15px;     */
+    align-items: center;
+}
+p,li{
+    line-height: 1.6;
+}
+h1{
+    margin-bottom: 5px;
+}
+h2{
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+/* skills page */
+.levl1,.levl2,.levl3,.levl4,.levl5{
+    height: 300px;
+    width: 20%;
+    background: transparent;
+    border-radius: 20px;
+    padding: 15px;
+}
+.loader{
+    height: 15px;
+    width:80%;
+    border-radius:5px;
+    background: rgb(143, 155, 151);
+    display:flex;
+    /* text-align:right; */
+    
+}
+.loader a{
+    font-size: 14px;
+    color:transparent;
+}
+.levl1 p,.levl2 p,.levl3 p,.levl4 p,.levl5 p{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.loader1_1,.loader1_3,.loader1_4,.loader1_5,.loader2_1,.loader2_2{
+    height: auto;
+    width:75%;
+    border-radius:5px;
+    background: rgb(5, 43, 214);
+}
+.loader3_1,.loader4_1{
+    height: auto;
+    width:20%;
+    border-radius:5px;
+    background: rgb(5, 43, 214);
+}
+.loader5_1,.loader1_2,.loader2_3,.loader4_2{
+    height: auto;
+    width:5%;
+    border-radius:5px;
+    background: rgb(5, 43, 214);
+}
+.lox{
+    height: 220px;
+    width: auto;
+    background: rgb(105, 95, 163);
+    border-radius: 10px;
+}
+.lox:hover{
+    .loader a{
+        color:black
+    }
+    cursor: pointer;
+}
+.levl1:hover,.levl2:hover,.levl3:hover,.levl4:hover,.levl5:hover{
+    background: rgb(134, 117, 233);
+    box-shadow: 0 0 10px rgb(73, 16, 230);
+    cursor: pointer;
+}
